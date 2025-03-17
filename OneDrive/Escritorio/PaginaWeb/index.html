@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>affon - Conéctate en cualquier momento y lugar</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <!-- Logo y nombre -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo.png" alt="Logo de affon" width="35" height="35">
+                <span class="ms-2 fw-bold text-darkblue">affon</span>
+            </a>
+
+            <!-- Botón de menú en móviles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Enlaces de navegación -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Acerca de</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Equipos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+                <!-- Botón principal -->
+                <a class="btn btn-warning ms-3" href="#">Descargar Ahora</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección principal (Hero) -->
+    <header class="hero text-center py-5">
+        <div class="container">
+            <h1 class="fw-bold text-darkblue" data-aos="fade-down">
+                Conéctate en cualquier momento y lugar
+            </h1>
+            <p class="text-muted" data-aos="fade-up" data-aos-delay="200">
+                Mejora la productividad con Daffon y mantente siempre comunicado.
+            </p>
+            <a class="btn btn-warning mt-3" href="#" data-aos="fade-up" data-aos-delay="400">
+                Descargar Ahora
+            </a>
+
+            <!-- Imagen principal -->
+            <div class="text-center mt-4">
+                <img src="img/video-call.png" alt="Llamada de Video" class="img-fluid img-reducida" 
+                     data-aos="zoom-in" data-aos-delay="600">
+            </div>
+        </div>
+    </header>
+
+  
+
+
+
+
+
+
+
+
+<!-- Sección Descubre Todas las Funcionalidades -->
+<section class="container my-5 animado">
+    <h2 class="fw-bold text-center" data-aos="fade-up">Descubre Todas las Funcionalidades</h2>
+    <p class="text-center text-muted" data-aos="fade-up">Explora las herramientas avanzadas que harán tus reuniones más fluidas y productivas.</p>
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="feature-box text-center animado" data-aos="fade-up">
+                <div class="feature-icon bg-success text-white">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>Llamadas de audio y vídeo HD</h3>
+                <p>Disfruta de reuniones sin interrupciones con una calidad de audio y video impecable.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="feature-box text-center animado" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-icon bg-primary text-white">
+                    <i class="fas fa-tv"></i>
+                </div>
+                <h3>Compartir pantalla</h3>
+                <p>Presenta documentos, diapositivas o cualquier contenido con un solo clic.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="feature-box text-center animado" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-icon bg-warning text-white">
+                    <i class="fas fa-comment-alt"></i>
+                </div>
+                <h3>Mensajería inteligente</h3>
+                <p>Envía mensajes en tiempo real con respuestas rápidas y personalizadas.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Sección "¿Por qué elegirnos?" -->
+<section class="container my-5">
+    <div class="row align-items-center">
+        <!-- Imagen a la izquierda -->
+        <div class="col-md-6 text-center" data-aos="fade-right">
+            <img src="img/whychoose.png" alt="Videollamada" class="img-fluid rounded shadow">
+        </div>
+
+        <!-- Texto e iconos a la derecha -->
+        <div class="col-md-6">
+            <h2 class="fw-bold mb-3" data-aos="fade-up">¿Por qué elegirnos?</h2>
+            <p class="text-muted" data-aos="fade-up">Ofrecemos soluciones de comunicación eficientes y seguras para tus reuniones en línea.</p>
+
+            <!-- Características -->
+            <div class="feature-box horizontal animado" data-aos="fade-left">
+                <div class="feature-icon bg-success text-white">
+                    <i class="fas fa-video"></i>
+                </div>
+                <div>
+                    <p class="fw-bold">Reuniones en vídeo</p>
+                    <p class="extra-info">Conexión estable y alta calidad de imagen.</p>
+                </div>
+            </div>
+
+            <div class="feature-box horizontal animado" data-aos="fade-left" data-aos-delay="100">
+                <div class="feature-icon bg-purple text-white">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+                <div>
+                    <p class="fw-bold">Audio mejorado</p>
+                    <p class="extra-info">Reducción de ruido y sonido claro.</p>
+                </div>
+            </div>
+
+            <div class="feature-box horizontal animado" data-aos="fade-left" data-aos-delay="200">
+                <div class="feature-icon bg-primary text-white">
+                    <i class="fas fa-closed-captioning"></i>
+                </div>
+                <div>
+                    <p class="fw-bold">Subtítulos en directo</p>
+                    <p class="extra-info">Traducción automática en tiempo real.</p>
+                </div>
+            </div>
+
+            <div class="feature-box horizontal animado" data-aos="fade-left" data-aos-delay="300">
+                <div class="feature-icon bg-warning text-white">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div>
+                    <p class="fw-bold">Grabación de llamadas</p>
+                    <p class="extra-info">Guarda tus reuniones para futuras referencias.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Enlace a AOS para animaciones -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<!-- Font Awesome para los íconos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+
+<!-- Sección "Potenciar la colaboración y la productividad" -->
+<section class="container my-5 animado">
+    <div class="row align-items-center">
+        <!-- Texto a la izquierda -->
+        <div class="col-md-6" data-aos="fade-right">
+            <h2 class="fw-bold">Impulsa la colaboración y la eficiencia</h2>
+            <p>Optimiza la eficiencia de tu equipo con herramientas de comunicación avanzada y gestión integrada.</p>
+            <button class="btn btn-primary">30 días de prueba gratuita</button>
+        </div>
+        <!-- Imagen a la derecha -->
+        <div class="col-md-6 text-center" data-aos="fade-left">
+            <img src="img/productivity_chart.png" alt="Productivity Growth" class="img-fluid rounded shadow">
+        </div>
+    </div>
+</section>
+
+<!-- Sección "Colaboración en Equipo" -->
+<section class="dark-section animado">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Tarjetas flotantes -->
+            <div class="col-md-6 position-relative d-flex justify-content-center" data-aos="zoom-in">
+                <div class="floating-cards">
+                    <div class="card custom-card primary-card">
+                        <img src="img/collaboration.jpg" alt="Colaboración" class="img-fluid">
+                        <p class="card-text">Colaboración</p>
+                        <div class="card-icons">
+                            <span class="circle">R</span>
+                            <span class="circle">M</span>
+                            <span class="circle">D</span>
+                        </div>
+                    </div>
+                    <div class="card custom-card secondary-card">
+                        <img src="img/teamwork.jpg" alt="Trabajo en Equipo" class="img-fluid">
+                        <p class="card-text">Trabajo en Equipo</p>
+                        <div class="card-icons">
+                            <span class="circle">P</span>
+                            <span class="circle">Q</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Texto a la derecha -->
+            <div class="col-md-6 text-white text-container" data-aos="fade-left">
+                <h2 class="fw-bold">Potenciar la colaboración y la productividad</h2>
+                <p>Facilita la comunicación y el flujo de trabajo con nuestras soluciones innovadoras. Asegura el éxito con herramientas intuitivas.</p>
+                <button class="btn btn-warning">¡Prueba ahora!</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de Testimonio Mejorada -->
+<section class="testimonial-section container my-5">
+    <div class="row align-items-center">
+        <!-- Testimonio Texto -->
+        <div class="col-md-7 testimonial-text" data-aos="fade-right">
+            <p class="testimonial-quote">
+                <span class="quote-mark">“</span>
+                Desde que implementamos esta plataforma, nuestra forma de trabajar ha cambiado por completo. 
+                Ahora disfrutamos de una organización impecable y una eficiencia que supera nuestras expectativas.
+            </p>
+            <div class="testimonial-author d-flex align-items-center">
+                <!-- Línea naranja -->
+                <div class="orange-line"></div>
+                <div class="author-info">
+                    <h4 class="fw-bold">Jhon Smith</h4>
+                    <p class="testimonial-position">Director General</p>
+                </div>
+                <img src="img/payoneer-logo.png" alt="Payoneer Logo" class="testimonial-logo">
+            </div>
+        </div>
+
+        <!-- Imagen del Testimonio -->
+        <div class="col-md-5 text-center testimonial-image-container" data-aos="fade-left">
+            <div class="testimonial-image-wrapper">
+                <div class="circle-animation"></div>
+                <img src="img/image.png" alt="Jhon Smith" class="testimonial-image">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="latest-news text-center">
+    <h2 class="fw-bold text-darkblue" data-aos="fade-down">Últimas Noticias</h2>
+    <p class="text-muted" data-aos="fade-up">Mantente informado con nuestras últimas actualizaciones y novedades.</p>
+
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <!-- Imagen izquierda -->
+            <div class="col-md-4" data-aos="fade-right">
+                <img src="img/Equipo_trabajando.png" class="img-fluid rounded shadow" alt="Equipo trabajando">
+            </div>
+
+            <!-- Tarjeta central -->
+            <div class="col-md-4">
+                <div class="news-card p-4 text-white" data-aos="zoom-in">
+                    <h4 class="news-title fw-bold text-white">Actualización de Google Page Experience</h4>
+                    <p class="news-meta"><i class="far fa-calendar-alt"></i> 30/08/21 &nbsp; | &nbsp; Cody Fisher</p>
+                    <p class="news-description">Google lanzará una actualización clave para mejorar la experiencia de navegación. Descubre cómo afecta a tu sitio web y qué cambios deberías hacer...</p>
+                    <a href="#" class="btn btn-light btn-sm mt-2"><i class="fas fa-arrow-right"></i> Leer más</a>
+                </div>
+            </div>
+
+            <!-- Imagen derecha -->
+            <div class="col-md-4" data-aos="fade-left">
+                <img src="img/Reunión_de_equipo.png" class="img-fluid rounded shadow" alt="Reunión de equipo">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Logo y Nombre + Descripción + Redes Sociales -->
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="brand-container">
+                    <img src="img/logo.png" alt="Logo Affon" class="footer-logo">
+                    <h4 class="fw-bold">affon</h4>
+                </div>
+                <p class="mt-2">Tu socio tecnológico para una comunicación eficiente y productiva.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            
+
+            <!-- Enlaces -->
+            <div class="col-md-8 d-flex justify-content-around" data-aos="fade-up">
+                <div>
+                    <h5>Sobre nosotros</h5>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Prensa</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Recursos</h5>
+                    <ul>
+                        <li><a href="#">Descargar Apps</a></li>
+                        <li><a href="#">Centro de Ayuda</a></li>
+                        <li><a href="#">Productividad</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Producto</h5>
+                    <ul>
+                        <li><a href="#">Cómo funciona</a></li>
+                        <li><a href="#">Iniciar sesión</a></li>
+                        <li><a href="#">Gestión</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Línea de separación y Copyright -->
+<div class="footer-bottom">
+    <hr class="footer-line">
+    <p class="copyright">&copy; 2025 Affon. Todos los derechos reservados.</p>
+</div>
+
+</body>
+</html>

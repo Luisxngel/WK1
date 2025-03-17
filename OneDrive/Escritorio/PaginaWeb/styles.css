@@ -1,0 +1,678 @@
+/* 📌 Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* 📌 Navbar */
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-brand, .nav-link, h1, h2, h3, h4, h5, h6, p {
+    color: #1A237E !important;
+}
+
+/* 📌 Botones */
+.btn-warning {
+    background-color: #FFA000;
+    border-color: #FFA000;
+}
+
+/* 📌 Imagen Principal (Reducida en 30%) */
+.img-reducida {
+    max-width: 70%;
+    height: auto;
+}
+
+/* 📌 Título Azul */
+.titulo-azul {
+    color: #1A237E !important;
+}
+
+
+
+/* 📌 Contenedor */
+.container {
+    max-width: 1100px;
+}
+
+/* 📌 Íconos */
+.feature-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 35px;
+}
+
+/* 📌 Caja de Característica (Vertical) */
+.feature-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* 📌 Caja de Característica (Horizontal) */
+.feature-box.horizontal {
+    flex-direction: row;
+    text-align: left;
+    padding: 12px;
+}
+
+/* 📌 Asegurar que los íconos estén a la izquierda en modo horizontal */
+.feature-box.horizontal .feature-icon {
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+/* 📌 Efecto Hover */
+.feature-box:hover {
+    transform: scale(1.05);
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* 📌 Mostrar más información al hacer hover */
+.extra-info {
+    display: none;
+    font-size: 14px;
+    color: #666;
+}
+
+.feature-box:hover .extra-info {
+    display: block;
+}
+
+/* 📌 Colores */
+.bg-purple { background-color: #8e44ad; }
+.bg-success { background-color: #28a745; }
+.bg-primary { background-color: #007bff; }
+.bg-warning { background-color: #ffc107; }
+
+
+
+
+/* 🔹 Sección general */
+.dark-section {
+    background: #0C1E56;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 🔹 Tarjetas flotantes */
+.floating-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.custom-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 220px;
+    text-align: center;
+    transform: rotate(-5deg);
+}
+
+.secondary-card {
+    transform: rotate(5deg) translateY(10px);
+}
+
+.card-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    background: orange;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+/* 🔹 Testimonios */
+.testimonial-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+
+.testimonial-content {
+    max-width: 500px;
+    text-align: left;
+}
+
+blockquote {
+    font-size: 22px;
+    color: #1d3557;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.quote-mark {
+    color: #0056b3;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.testimonial-info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.testimonial-info h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1d3557;
+}
+
+.testimonial-info p {
+    color: #777;
+    font-size: 14px;
+}
+
+.logo-container img {
+    width: 100px;
+    filter: brightness(0.9) contrast(1.2);
+}
+
+.testimonial-image {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.outline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 270px;
+    height: 270px;
+    border: 3px solid #0056b3;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+
+
+.text-white h2, 
+.text-white p {
+    color: white !important;
+}
+
+.text-white h2, 
+.text-white p {
+    color: #ffffff !important;
+}
+
+
+.testimonial-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.testimonial-quote {
+    font-size: 1.2rem;
+    color: #1a237e;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.orange-line {
+    width: 5px;
+    height: 50px;
+    background-color: #ff6f00;
+    margin-right: 10px;
+}
+
+.author-info h4 {
+    margin: 0;
+    color: #1a237e;
+}
+
+.author-info p {
+    margin: 0;
+    color: #666;
+}
+
+.testimonial-logo {
+    width: 120px;
+    margin-left: 20px;
+}
+
+/* Estilos para la imagen con animación */
+.testimonial-image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.testimonial-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Animación circular */
+.circle-animation {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px dashed #1a237e;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 5s linear infinite;
+}
+
+/* Animación giratoria */
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos generales */
+.text-darkblue {
+    color: #1a237e; /* Azul oscuro */
+}
+
+.latest-news {
+    padding: 50px 0;
+}
+
+/* Estilo de la tarjeta central */
+.news-card {
+    background-color: #007bff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.news-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff; /* Blanco con negrita */
+}
+
+.news-meta {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.news-description {
+    font-size: 16px;
+}
+
+.news-card a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background: #f8f9fa;
+    padding: 30px 0;
+}
+
+.footer-logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.footer h4 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #6c757d;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.footer ul li a:hover {
+    color: #007bff;
+}
+
+/* Distribución uniforme de enlaces en la parte derecha */
+.footer .col-md-8 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ANIMACIONES */
+[data-aos] {
+    transition: all 0.5s ease-in-out;
+}
+
+[data-aos="fade-up"] {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+[data-aos="fade-down"] {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+[data-aos="fade-right"] {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+[data-aos="fade-left"] {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+[data-aos="zoom-in"] {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+/* Activar animaciones */
+body.loaded [data-aos] {
+    opacity: 1;
+    transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-logo {
+    width: 50px;
+    margin-right: 5px; /* Reduce el margen derecho */
+}
+
+.footer .brand-container {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espacio más reducido entre el logo y el texto */
+}
+
+
+
+
+/* Línea divisoria en el footer */
+.footer-line {
+    border: none;
+    height: 1px;
+    background-color: #ccc; /* Gris claro */
+    margin: 20px 0;
+}
+
+/* Estilos del copyright */
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #6c757d; /* Gris oscuro */
+}

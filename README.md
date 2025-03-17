@@ -16,7 +16,7 @@ Affon es una plataforma de comunicación que facilita reuniones virtuales, mejor
 - **Git & GitHub** para control de versiones
 
 ## 📡 Visualización del Proyecto
-Puedes ver el proyecto en línea aquí: **[🔗 LINK A NGROK O GITHUB PAGES]**
+Puedes ver el proyecto en línea aquí: https://luisxngel.github.io/WK1/
 
 ## 👤 Autor
 - **Luis Ángel** - Desarrollador Web  
